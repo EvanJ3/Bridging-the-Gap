@@ -1,0 +1,92 @@
+{% extends 'template.html' %}
+
+{% block styles %}
+<link rel= "stylesheet" type= "text/css" href= "static\about.css">
+{% endblock %}
+
+{% block postnav %}
+<div class="about-main-container" style="padding-top: 40px;">
+    <h1 style="padding-bottom: 20px; text-decoration: underline;">About our Project...</h1>
+    <div class="about-lead-container">
+        <div class="about-content">
+            <img class="collapse-img" src="static/Images/About/Minneapolis_collapse.jpg"></img>
+
+        </div>
+
+            
+    </div>
+    <div class="about-lead-container">
+        <div class="about-content" style="padding-top:30px;padding-bottom: 50px;">
+            <p class="about-text">Within the United States, there are more than 617,000 bridges each 
+                of which is paramount to ensuring the safe and reliable transit of goods, services, and individuals 
+                throughout the country. Despite their critical function, a significant proportion of the nation's 
+                bridges are in a state of disrepair, creating an issue of substantial public concern. However, this 
+                issue is not often recognized in part due to the lack of non-proprietary solutions for transparent 
+                exploration and visualization of the topic. Today's most recognized tool to explore bridge data, the 
+                "InfoBridge" web portal, lacks the clarity and flexibility expected of modern web applications. We 
+                developed this application to fill this gap in technology, seeking to build a tool that is not only 
+                informative, but open-source and easy-to-use. We hope you enjoy it.</p>
+        </div>    
+    </div>
+</div>
+
+<div class="about-main-container">
+    <div class="content-center-container">
+        <h1 style="padding-bottom: 50px; text-decoration: underline;">About Us</h1>
+        <div class="about-profile-left">
+            <img class="profile-image-left" src="static/Images/About/EJ_Linkedin_Profile_Photo.jpg">
+            <h4 style="text-align:center; padding-bottom: 10px;">Evan Jones</h4>
+            <p class="profile-text-left">Hi, my name is Evan Jones, but everyone calls me EJ. I'm a machine learning engineer and data scientist currently finishing up
+                my last semester as a graduate student within Georgia Tech's OMSA program. For this project I was responsible for 
+                creating a modeling framework for the bridge condition prediction task, training and optimizing several different 
+                models, and conducting inference on all our the United States bridges on a regional basis. Additionally, I was responsible
+                for creating the modeling webpage as well this page. I hope you enjoy our project!
+
+            </p>
+
+        </div>
+        <div class="about-profile-right">
+            <img class="profile-image-right" src="static/Images/About/Jacob_Photo_Small.png">
+            <h4 style="text-align:center; padding-bottom: 10px;">Jacob Shalkhauser</h4>
+            <p class="profile-text-right">Hello everyone, my name is Jacob! This is my sixth course in Georgia Tech's OMSCS program and I currently work as a software engineer. 
+                I was responsible for the data, database, and infrastructure side of this project. I helped download and clean our datasets, build our MySQL database, and set 
+                up the infrastructure for this Flask application. We hope you find our application easy-to-use and interesting!
+
+        </div>
+        <div class="about-profile-left">
+            <img class="profile-image-left" src="static/Images/About/Brian_Photo.jpg">
+            <h4 style="text-align:center; padding-bottom: 10px;">Brian Luu</h4>
+            <p class="profile-text-left">Hi, my name is Brian Luu. I'm an electronics engineer but interest in machine learning for RF engineering applications. 
+                I have one more semester to finish up my graduate study on OMSCS at Georgia Tech. For this project, I was responsible of making best use of 
+                combined data of US bridges, traffic, weather, and modeling & prediction to visualize and provide useful information about bridges in USA. 
+                I hope you find some interests on our project.
+            </p>
+
+        </div>
+        <div class="about-profile-right">
+            <img class="profile-image-right" src="static/Images/About/beni.jpeg">
+            <h4 style="text-align:center; padding-bottom: 10px;">Ben Boughton</h4>
+            <p class="profile-text-right">Ben Boughton is a data analyst in the finance industry specializing in data infrastructure. He is in his first semester of the OMSCS program at Georgia Tech. As a member of the data team, Ben helped with the integration of the MySQL database and wrangling/uploading traffic data for use in visualizations.
+            </p>
+        </div>
+        <div class="about-profile-left">
+            <img class="profile-image-left" src="static/Images/About/travis.jpg">
+            <h4 style="text-align:center; padding-bottom: 10px;">Travis Cole</h4>
+            <p class="profile-text-left">Hi my name is Travis. I work as a data engineer and have one semester left in Georgia Tech's OMSA program. For this project I worked on creating the visualzations in Tableau.
+            </p>
+        </div>
+        <div class="about-profile-right">
+            <img class="profile-image-right" src="static/Images/About/filler-image.png">
+            <h4 style="text-align:center; padding-bottom: 10px;">Mernegar Dorgoly</h4>
+            <p class="profile-text-right">Hi, my name is Mernegar. I worked on the predictive modeling aspects of this project.              
+            </p>
+        </div>
+
+
+            
+    </div>
+</div>
+
+
+
+{% endblock %}

@@ -1,0 +1,2 @@
+The trained randomforest models are too large to store in github. If you are interested in using them please download them from the following dropbox link:
+https://www.dropbox.com/sh/253esns4km760qq/AACa8Bsc0LXHnb4Wcin9TzlKa/Briding%20the%20Gap%20External%20Files/Bridge_Random_Forest_Models?dl=0&subfolder_nav_tracking=1

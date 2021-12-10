@@ -1,0 +1,45 @@
+{% extends 'template.html' %}
+
+{% block body %}
+
+<div class="description-text">
+  <h3>Welcome to <u>Bridging the Gap</u>, Team 54's project for CSE6242.</h3>
+  <p>This application, developed by <b>Team054</b> for the Georgia Institute of Technology's <b>CSE 6242: Data and Visual Analytics</b> course, is a modern adaptation of existing tools for understanding and visualizing bridge infrastructure data in the United States. 
+  <br /><br />There are over 617,000 bridges in the country, all of them critical to the transporation of goods, services, and individuals. This application allows anyone to view essential details about each of these critical pieces of infrastructure. Use the navigation bar or links below to explore our interactive dashboards, modeling information, and to learn various information about the project. </p>
+
+  <b>Visualizations</b>
+  <ul style="list-style-type:disc;padding-top:3px;">
+    <li><a href="{{ url_for('visualization1') }}">U.S. Bridge Infrastructure Detailed Map View</a></li>
+    <li><a href="{{ url_for('visualization2') }}">U.S. Bridge Infrastructure Modeling Drill Down</a></li>
+  </ul>
+
+  <b>Models</b>
+  <ul style="list-style-type:disc;padding-top:3px;">
+    <li><a href="{{ url_for('modeling') }}">Modeling Approaches</a></li>
+  </ul>
+  
+  <b>Project Team Members</b>
+  <ul style="list-style-type:disc;padding-top:3px;">
+    <li>Benjamin Boughton</li>
+    <li>Brian Luu</li>
+    <li>Evan Jones</li>
+    <li>Jacob Shalkhauser</li>
+    <li>Mernegar Dorgoly</li>
+    <li>Travis Cole</li>
+  </ul>
+
+</div><!-- /description-text -->
+
+<!-- <div class="row" style="margin-left:1.5%;">
+  <div class="col-7" style="font-weight:bold;font-size:18pt;">
+    Example Visualization Title
+  </div>
+  <div class="col-2" style="font-weight:normal;font-size:12pt;padding-top:5px;">
+    2016 - 2018
+  </div>
+  <div class="col-3" style="font-weight:normal;font-size:12pt;padding-top:5px;">
+    Other Information
+  </div>
+</div>/row -->
+
+{% endblock %}

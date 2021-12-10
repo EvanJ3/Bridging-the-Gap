@@ -1,0 +1,25 @@
+{% extends 'template.html' %}
+
+{% block body %}
+
+<div class="row" style="margin-left:0.5%; padding-top:1%;">
+  <div class="col-7" style="font-weight:bold;font-size:18pt;">
+    U.S. Bridge Infrastructure Modeling Drill Down
+  </div>
+  <div class="col-2" style="font-weight:normal;font-size:12pt;padding-top:5px;"></div>
+  <div class="col-3" style="font-weight:normal;font-size:12pt;padding-top:5px;"></div>
+</div><!-- /row -->
+<div class="row" style="margin-left:0.5%;">
+  <div class="col-11">
+    <p>This dashboad is used to drill-down into the predictive modeling features of our application. Using the filters on the right-hand side, 
+      you can see how predicted bridge condition values (Poor, Fair, Good) by region change based on the model type and year predicted. We have plotted 
+      features such as "Bridge Structure Type," "Bridge Class," and "Precipitation" to visually demonstrate how these values shift based on our model's predictions.
+    </p> 
+  </div>
+</div><!-- /row -->
+
+<div id="vis-holder" style="margin-left:1.5%">
+  <div class='tableauPlaceholder' id='viz1638579452410' style='position: relative'><noscript><a href='#'><img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;dv&#47;dvaprojectdashboard2&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='dvaprojectdashboard2&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;dv&#47;dvaprojectdashboard2&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1638579452410');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1677px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+</div>
+
+{% endblock %}
