@@ -1,6 +1,6 @@
 # Bridging the Gap: CSE6242_Team054_Project
 
-![Bridging the Gap Logo](./CODE/app/static/Images/github_readme_lead.png)
+![Bridging the Gap Logo](./CODE/app/static/Images/Github_Readme_Lead.png)
 
 ---
 
